@@ -198,7 +198,7 @@ while True :
             spreadsheets = open_excel(fileName)
             accountData = read_sheet(spreadsheets, SHEET["ACCOUNT"])
             checkInData = read_sheet(spreadsheets, sheetName)
-            result = checkInData = Check_In(Check_In_Number,accountData,checkInData,MODE["CHECKIN"])
+            result = checkInData = Check_In(Check_In_Number,accountData,checkInData,MODE["CHECKOUT"])
             checkInData = result["checkInData"];
             accountData = result["accountData"];
             save_sheet(fileName,accountData,SHEET["ACCOUNT"],checkInData,sheetName)
