@@ -182,7 +182,7 @@ if __name__ == '__main__':
         if verifyInput(fileName,sheetName):
             break
 
-    while Tue:
+    while True:
         printSeperateLine()
         print_order_list()
         try:
