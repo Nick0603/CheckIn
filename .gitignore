@@ -1,4 +1,6 @@
 xlrd/
 xlsxwriter/
-.idea/workspace.xml
 
+.idea/
+__pycache__/
+*.pyc
